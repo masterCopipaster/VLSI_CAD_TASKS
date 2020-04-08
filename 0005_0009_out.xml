@@ -1,0 +1,65 @@
+<?xml version="1.0" ?>
+<root>
+	
+  
+	<grid max_x="150" max_y="150" min_x="0" min_y="0"/>
+	
+  
+	<net>
+		
+    
+		<point layer="pins" x="143" y="110"/>
+		
+    
+		<point layer="pins" x="100" y="92"/>
+		
+    
+		<point layer="pins" x="143" y="64"/>
+		
+    
+		<point layer="pins" x="107" y="121"/>
+		
+    
+		<point layer="pins" x="82" y="15"/>
+		
+  
+		<segment layer="m2" x1="100" x2="100" y1="110" y2="92"/>
+		<point layer="m2_m3" x="100" y="110"/>
+		<point layer="pins_m2" x="100" y="92"/>
+		<segment layer="m2" x1="143" x2="143" y1="110" y2="121"/>
+		<point layer="pins_m2" x="143" y="110"/>
+		<point layer="m2_m3" x="143" y="121"/>
+		<segment layer="m3" x1="143" x2="107" y1="110" y2="110"/>
+		<point layer="m2_m3" x="107" y="110"/>
+		<segment layer="m2" x1="107" x2="107" y1="110" y2="121"/>
+		<point layer="pins_m2" x="107" y="121"/>
+		<segment layer="m3" x1="143" x2="82" y1="110" y2="110"/>
+		<point layer="m2_m3" x="82" y="110"/>
+		<segment layer="m2" x1="100" x2="100" y1="92" y2="64"/>
+		<point layer="m2_m3" x="100" y="64"/>
+		<segment layer="m2" x1="143" x2="143" y1="92" y2="64"/>
+		<point layer="m2_m3" x="143" y="92"/>
+		<point layer="pins_m2" x="143" y="64"/>
+		<segment layer="m3" x1="100" x2="107" y1="92" y2="92"/>
+		<point layer="m2_m3" x="107" y="92"/>
+		<segment layer="m2" x1="107" x2="107" y1="92" y2="121"/>
+		<segment layer="m3" x1="100" x2="82" y1="15" y2="15"/>
+		<point layer="m2_m3" x="100" y="15"/>
+		<point layer="pins_m3" x="82" y="15"/>
+		<segment layer="m3" x1="100" x2="82" y1="92" y2="92"/>
+		<point layer="m2_m3" x="82" y="92"/>
+		<segment layer="m3" x1="143" x2="107" y1="64" y2="64"/>
+		<point layer="m2_m3" x="107" y="64"/>
+		<segment layer="m2" x1="143" x2="143" y1="64" y2="15"/>
+		<point layer="m2_m3" x="143" y="15"/>
+		<segment layer="m3" x1="143" x2="82" y1="64" y2="64"/>
+		<point layer="m2_m3" x="82" y="64"/>
+		<segment layer="m2" x1="82" x2="82" y1="64" y2="15"/>
+		<segment layer="m3" x1="107" x2="82" y1="15" y2="15"/>
+		<point layer="m2_m3" x="107" y="15"/>
+		<segment layer="m3" x1="107" x2="82" y1="121" y2="121"/>
+		<point layer="m2_m3" x="82" y="121"/>
+	</net>
+	
+
+</root>
