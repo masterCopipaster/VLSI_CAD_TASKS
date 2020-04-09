@@ -15,32 +15,25 @@ class hann_grid(graph):
 	
 	def addpin(self, p):
 		self.pins.append(p)
-		self.addvertex(p)
+		self.addvertex(p, name = "pin")
 		
-	def addvertex(self, p):
-		v = vertex()
+	def addvertex(self, p, name = None):
+		v = vertex(name = name)
 		v.value = p
 		if not p in self.vertmap:
 			super().addvertex(v)
 			self.vertmap[v.value] = v
 	
-	def addedge(self, p1, p2):
+	def addedge(self, p1, p2, name = None):
 		x1, y1 = p1
 		x2, y2 = p2
 		if not ((p1, p2) in self.edgemap or (p2, p1) in self.edgemap):
-			ed = edge(self.vertmap[p1], self.vertmap[p2], value = abs(x1 - x2) + abs(y1 - y2))
+			ed = edge(self.vertmap[p1], self.vertmap[p2], value = abs(x1 - x2) + abs(y1 - y2), name = name)
 			super().addedge(ed)
 			self.edgemap[(p1, p2)] = ed
 	
 	def findedge(self, p1, p2):
-		vouts = lambda v: v.outs if not self.bidir else v.outs + v.ins
-		vins = lambda v: v.ins if not self.bidir else v.outs + v.ins
-		
-		v1 = self.vertmap[p1]
-		v2 = self.vertmap[p2]
-		
-		itrs = list(set(vouts(v1)) | set(vins(v2)))
-		return itrs[0]
+		return self.edgemap[p1,p2]
 	
 	def full(self):
 		for ed in self.edges:
@@ -105,6 +98,7 @@ class hann_grid(graph):
 			if (not (p in self.pins)) and (cp[p].deg() < 2):
 				try:
 					self.delvertex(p)
+					#print("vertex del", p)
 				except:
 					print("delete failure", p)
 	

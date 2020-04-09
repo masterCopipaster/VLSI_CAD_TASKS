@@ -40,8 +40,11 @@ class edge :
 		frm.outs.append(self)
 		
 	def __del__(self):
-		self.vertexto.ins.remove(self)
-		self.vertexfrom.outs.remove(self)
+		try:
+			self.vertexto.ins.remove(self)
+			self.vertexfrom.outs.remove(self)
+		except:
+			pass
 		
 	def __str__(self):
 		return "<edge " + str(id(self)) + " name: " + str(self.name) + " value: " + str(self.value) + ">"
@@ -68,12 +71,20 @@ class graph:
 		self.edges.append(ed)
 	
 	def remedge(self, ed, destructor = True):
+		#d1 = self.deg()
 		self.edges.remove(ed)
 		if destructor:
+			ed.vertexto.ins.remove(ed)
+			ed.vertexfrom.outs.remove(ed)
 			del ed
 		else:
-			ed.vertexto.ins.remove(self)
-			ed.vertexfrom.outs.remove(self)
+			ed.vertexto.ins.remove(ed)
+			ed.vertexfrom.outs.remove(ed)
+		#d2 = self.deg()
+		#print(d1, d2)
+			
+	def deg(self):
+		return sum(v.deg() for v in self.verts)
 	
 	def rem2vertsedge(self, ver1, ver2):
 		removable = set({})
@@ -90,6 +101,7 @@ class graph:
 			self.remedge(ed)
 		if destructor: 
 			del ver
+		
 	
 	def dfs(self, frm = None, runfunc = None, arg = None, bidir = None):
 		if bidir == None: 
@@ -112,7 +124,7 @@ class graph:
 					self.dfs(ed.vertexfrom, runfunc, bidir)
 
 		
-	def dotexport(self):
+	def dotexport(self, pos = True):
 		s = ""
 		if self.bidir:
 			s += "graph{\n"
@@ -120,9 +132,13 @@ class graph:
 		else :
 			s += "digraph{\n"
 			arrow = " -> "
-		idf = lambda v:("\"" + str(v.name) + "\"" if v.name else "\"" + str(v.value) + "\"" if v.value else str(id(v)))	
+		#s += "graph [pad=\"0.212,0.055\" bgcolor=lightgray]"
+		idf = lambda v:"\"" + (str(v.name) if v.name else "") + (str(v.value) if v.value else str(id(v))) + "\""	
 		for v in self.verts:
-			s += idf(v) + "; "
+			s += idf(v)
+			if pos:
+				s += " [pos=\"" + str(v.value[0]*0.4) + "," + str(v.value[1]*0.4) + "!\"]"
+			s += ";\n"
 			
 		s += "\n"
 		
@@ -135,11 +151,11 @@ class graph:
 		s += "}"
 		return s
 
-	def dotexportpng(self, filename):
+	def dotexportpng(self, filename, pos = True):
 		f = open("__tmpfile__.tmp", "w")
-		f.write(self.dotexport())
+		f.write(self.dotexport(pos = pos))
 		f.close()
-		ret = os.system("dot -Tpng -o " + filename + " __tmpfile__.tmp")
+		ret = os.system("neato -Tpng -o " + filename + " __tmpfile__.tmp")
 		os.system("rm __tmpfile__.tmp")
 		return ret
 		
@@ -160,10 +176,10 @@ class graph:
 		while len(self.unvisited) > 0:
 			#print("-----------------------" )
 			#print("appended initial", appended)
-			avedges += vouts(appended)
-			for ed in avedges:
-				if (not ed.vertexfrom in self.unvisited) and (not ed.vertexto in self.unvisited):
-					avedges.remove(ed)
+			#avedges += vouts(appended)
+			for ed in vouts(appended):
+				if (ed.vertexfrom in self.unvisited) or (ed.vertexto in self.unvisited):
+					avedges.append(ed)
 			try:
 				while 1:
 					avedges.remove(goedge)
@@ -178,7 +194,8 @@ class graph:
 			appendedl = [goedge.vertexto, goedge.vertexfrom]
 			
 			#print("unvisited", self.unvisited)
-			if appended in self.unvisited: self.unvisited.remove(appended)
+			if appended in self.unvisited: 
+				self.unvisited.remove(appended)
 			#print("unvisited", self.unvisited)
 			#print("appendedl", appendedl)
 			
@@ -195,49 +212,6 @@ class graph:
 			self.remedge(ed)
 			#print("ooops")
 		
-	def deikstrify2(self, start = None):
-		
-		val = lambda v: v.value
-		vouts = lambda v: v.outs if not self.bidir else v.outs + v.ins
-		vins = lambda v: v.ins if not self.bidir else v.outs + v.ins
-		 
-		self.unvisited = self.verts.copy()
-		appended = start
-		deikedges = []
-		avedges = self.edges.copy()
-		avedges.sort(key = val)
-		appended = avedges[0].vertexfrom
-		avedges = []
-		goedge = None
-		
-		while len(self.unvisited) > 0:
-			#print("-----------------------" )
-			#print("appended initial", appended)
-			avedges += vouts(appended)
-			try:
-				while 1:
-					avedges.remove(goedge)
-			except:
-				pass
-			#print("avedges", avedges)
-			avedges.sort(key = val)
-			goedge = avedges[0]
-			
-			appendedl = [goedge.vertexto, goedge.vertexfrom]
-			#print("appendedl", appendedl)
-			#print("unvisited", self.unvisited)
-			self.unvisited.remove(appended)
-			#print("unvisited", self.unvisited)
-			if appendedl[0] in self.unvisited:
-				appended = appendedl[0]
-				deikedges.append(goedge)
-			if appendedl[1] in self.unvisited:
-				appended = appendedl[1]
-				deikedges.append(goedge)
-		#print(deikedges)
-		for ed in set(self.edges) - set(deikedges):
-			self.remedge(ed)
-			#print("ooops")
 			
 		
 		

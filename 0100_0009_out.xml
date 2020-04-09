@@ -1,0 +1,917 @@
+<?xml version="1.0" ?>
+<root>
+	
+  
+	<grid max_x="150" max_y="150" min_x="0" min_y="0"/>
+	
+  
+	<net>
+		
+    
+		<point layer="pins" x="122" y="47"/>
+		
+    
+		<point layer="pins" x="121" y="30"/>
+		
+    
+		<point layer="pins" x="101" y="95"/>
+		
+    
+		<point layer="pins" x="118" y="71"/>
+		
+    
+		<point layer="pins" x="133" y="13"/>
+		
+    
+		<point layer="pins" x="10" y="7"/>
+		
+    
+		<point layer="pins" x="142" y="129"/>
+		
+    
+		<point layer="pins" x="129" y="95"/>
+		
+    
+		<point layer="pins" x="81" y="10"/>
+		
+    
+		<point layer="pins" x="14" y="48"/>
+		
+    
+		<point layer="pins" x="138" y="20"/>
+		
+    
+		<point layer="pins" x="141" y="61"/>
+		
+    
+		<point layer="pins" x="49" y="7"/>
+		
+    
+		<point layer="pins" x="147" y="20"/>
+		
+    
+		<point layer="pins" x="39" y="89"/>
+		
+    
+		<point layer="pins" x="69" y="140"/>
+		
+    
+		<point layer="pins" x="63" y="123"/>
+		
+    
+		<point layer="pins" x="41" y="31"/>
+		
+    
+		<point layer="pins" x="54" y="89"/>
+		
+    
+		<point layer="pins" x="45" y="72"/>
+		
+    
+		<point layer="pins" x="22" y="137"/>
+		
+    
+		<point layer="pins" x="44" y="113"/>
+		
+    
+		<point layer="pins" x="103" y="0"/>
+		
+    
+		<point layer="pins" x="111" y="41"/>
+		
+    
+		<point layer="pins" x="145" y="92"/>
+		
+    
+		<point layer="pins" x="29" y="45"/>
+		
+    
+		<point layer="pins" x="39" y="62"/>
+		
+    
+		<point layer="pins" x="22" y="28"/>
+		
+    
+		<point layer="pins" x="21" y="11"/>
+		
+    
+		<point layer="pins" x="141" y="99"/>
+		
+    
+		<point layer="pins" x="145" y="0"/>
+		
+    
+		<point layer="pins" x="5" y="117"/>
+		
+    
+		<point layer="pins" x="108" y="31"/>
+		
+    
+		<point layer="pins" x="117" y="147"/>
+		
+    
+		<point layer="pins" x="22" y="76"/>
+		
+    
+		<point layer="pins" x="0" y="141"/>
+		
+    
+		<point layer="pins" x="55" y="28"/>
+		
+    
+		<point layer="pins" x="32" y="76"/>
+		
+    
+		<point layer="pins" x="23" y="100"/>
+		
+    
+		<point layer="pins" x="56" y="134"/>
+		
+    
+		<point layer="pins" x="20" y="107"/>
+		
+    
+		<point layer="pins" x="45" y="8"/>
+		
+    
+		<point layer="pins" x="38" y="131"/>
+		
+    
+		<point layer="pins" x="29" y="51"/>
+		
+    
+		<point layer="pins" x="83" y="141"/>
+		
+    
+		<point layer="pins" x="124" y="93"/>
+		
+    
+		<point layer="pins" x="130" y="93"/>
+		
+    
+		<point layer="pins" x="48" y="56"/>
+		
+    
+		<point layer="pins" x="125" y="100"/>
+		
+    
+		<point layer="pins" x="87" y="131"/>
+		
+    
+		<point layer="pins" x="3" y="19"/>
+		
+    
+		<point layer="pins" x="49" y="87"/>
+		
+    
+		<point layer="pins" x="113" y="90"/>
+		
+    
+		<point layer="pins" x="23" y="36"/>
+		
+    
+		<point layer="pins" x="17" y="77"/>
+		
+    
+		<point layer="pins" x="41" y="111"/>
+		
+    
+		<point layer="pins" x="39" y="68"/>
+		
+    
+		<point layer="pins" x="76" y="104"/>
+		
+    
+		<point layer="pins" x="53" y="111"/>
+		
+    
+		<point layer="pins" x="138" y="148"/>
+		
+    
+		<point layer="pins" x="134" y="131"/>
+		
+    
+		<point layer="pins" x="131" y="56"/>
+		
+    
+		<point layer="pins" x="133" y="56"/>
+		
+    
+		<point layer="pins" x="88" y="128"/>
+		
+    
+		<point layer="pins" x="118" y="22"/>
+		
+    
+		<point layer="pins" x="46" y="101"/>
+		
+    
+		<point layer="pins" x="97" y="128"/>
+		
+    
+		<point layer="pins" x="50" y="142"/>
+		
+    
+		<point layer="pins" x="117" y="145"/>
+		
+    
+		<point layer="pins" x="37" y="108"/>
+		
+    
+		<point layer="pins" x="113" y="128"/>
+		
+    
+		<point layer="pins" x="22" y="74"/>
+		
+    
+		<point layer="pins" x="87" y="118"/>
+		
+    
+		<point layer="pins" x="10" y="81"/>
+		
+    
+		<point layer="pins" x="48" y="33"/>
+		
+    
+		<point layer="pins" x="100" y="2"/>
+		
+    
+		<point layer="pins" x="106" y="60"/>
+		
+    
+		<point layer="pins" x="140" y="111"/>
+		
+    
+		<point layer="pins" x="126" y="36"/>
+		
+    
+		<point layer="pins" x="118" y="19"/>
+		
+    
+		<point layer="pins" x="111" y="84"/>
+		
+    
+		<point layer="pins" x="11" y="112"/>
+		
+    
+		<point layer="pins" x="136" y="118"/>
+		
+    
+		<point layer="pins" x="39" y="30"/>
+		
+    
+		<point layer="pins" x="118" y="108"/>
+		
+    
+		<point layer="pins" x="4" y="3"/>
+		
+    
+		<point layer="pins" x="132" y="67"/>
+		
+    
+		<point layer="pins" x="5" y="102"/>
+		
+    
+		<point layer="pins" x="67" y="146"/>
+		
+    
+		<point layer="pins" x="106" y="57"/>
+		
+    
+		<point layer="pins" x="87" y="105"/>
+		
+    
+		<point layer="pins" x="88" y="105"/>
+		
+    
+		<point layer="pins" x="115" y="98"/>
+		
+    
+		<point layer="pins" x="87" y="47"/>
+		
+    
+		<point layer="pins" x="50" y="136"/>
+		
+    
+		<point layer="pins" x="44" y="20"/>
+		
+    
+		<point layer="pins" x="22" y="126"/>
+		
+    
+		<point layer="pins" x="135" y="139"/>
+		
+    
+		<point layer="pins" x="32" y="10"/>
+		
+    
+		<point layer="pins" x="127" y="64"/>
+		
+  
+		<segment layer="m3" x1="131" x2="131" y1="47" y2="56"/>
+		<point layer="m2_m3" x="131" y="47"/>
+		<point layer="m2_m3" x="131" y="56"/>
+		<point layer="pins_m2" x="131" y="56"/>
+		<segment layer="m2" x1="122" x2="126" y1="36" y2="36"/>
+		<point layer="m2_m3" x="122" y="36"/>
+		<point layer="pins_m2" x="126" y="36"/>
+		<segment layer="m2" x1="121" x2="118" y1="22" y2="22"/>
+		<point layer="m2_m3" x="121" y="22"/>
+		<point layer="pins_m2" x="118" y="22"/>
+		<segment layer="m2" x1="133" x2="138" y1="20" y2="20"/>
+		<point layer="m2_m3" x="133" y="20"/>
+		<point layer="pins_m2" x="138" y="20"/>
+		<segment layer="m3" x1="4" x2="4" y1="7" y2="3"/>
+		<point layer="m2_m3" x="4" y="7"/>
+		<point layer="m2_m3" x="4" y="3"/>
+		<point layer="pins_m2" x="4" y="3"/>
+		<segment layer="m3" x1="134" x2="134" y1="129" y2="131"/>
+		<point layer="m2_m3" x="134" y="129"/>
+		<point layer="m2_m3" x="134" y="131"/>
+		<point layer="pins_m2" x="134" y="131"/>
+		<segment layer="m2" x1="129" x2="130" y1="93" y2="93"/>
+		<point layer="m2_m3" x="129" y="93"/>
+		<point layer="pins_m2" x="130" y="93"/>
+		<segment layer="m3" x1="100" x2="100" y1="10" y2="2"/>
+		<point layer="m2_m3" x="100" y="10"/>
+		<point layer="m2_m3" x="100" y="2"/>
+		<point layer="pins_m2" x="100" y="2"/>
+		<segment layer="m3" x1="141" x2="141" y1="61" y2="56"/>
+		<point layer="m2_m3" x="141" y="56"/>
+		<point layer="pins_m2" x="141" y="61"/>
+		<point layer="m2_m3" x="141" y="56"/>
+		<segment layer="m3" x1="49" x2="49" y1="7" y2="8"/>
+		<point layer="m2_m3" x="49" y="8"/>
+		<point layer="pins_m2" x="49" y="7"/>
+		<point layer="m2_m3" x="49" y="8"/>
+		<segment layer="m2" x1="147" x2="145" y1="20" y2="20"/>
+		<point layer="pins_m2" x="147" y="20"/>
+		<point layer="m2_m3" x="145" y="20"/>
+		<segment layer="m3" x1="39" x2="39" y1="89" y2="87"/>
+		<point layer="m2_m3" x="39" y="87"/>
+		<point layer="pins_m2" x="39" y="89"/>
+		<point layer="m2_m3" x="39" y="87"/>
+		<segment layer="m3" x1="69" x2="69" y1="140" y2="134"/>
+		<point layer="m2_m3" x="69" y="134"/>
+		<point layer="pins_m2" x="69" y="140"/>
+		<point layer="m2_m3" x="69" y="134"/>
+		<segment layer="m3" x1="69" x2="69" y1="140" y2="141"/>
+		<point layer="m2_m3" x="69" y="141"/>
+		<segment layer="m2" x1="69" x2="83" y1="140" y2="140"/>
+		<point layer="m2_m3" x="83" y="140"/>
+		<segment layer="m2" x1="69" x2="67" y1="140" y2="140"/>
+		<point layer="m2_m3" x="67" y="140"/>
+		<segment layer="m3" x1="63" x2="63" y1="123" y2="134"/>
+		<point layer="m2_m3" x="63" y="134"/>
+		<point layer="pins_m2" x="63" y="123"/>
+		<point layer="m2_m3" x="63" y="134"/>
+		<segment layer="m2" x1="63" x2="56" y1="123" y2="123"/>
+		<point layer="m2_m3" x="56" y="123"/>
+		<segment layer="m3" x1="41" x2="41" y1="31" y2="33"/>
+		<point layer="m2_m3" x="41" y="33"/>
+		<point layer="pins_m2" x="41" y="31"/>
+		<point layer="m2_m3" x="41" y="33"/>
+		<segment layer="m3" x1="41" x2="41" y1="31" y2="30"/>
+		<point layer="m2_m3" x="41" y="30"/>
+		<segment layer="m2" x1="41" x2="39" y1="31" y2="31"/>
+		<point layer="m2_m3" x="39" y="31"/>
+		<segment layer="m2" x1="41" x2="44" y1="31" y2="31"/>
+		<point layer="m2_m3" x="44" y="31"/>
+		<segment layer="m3" x1="54" x2="54" y1="89" y2="87"/>
+		<point layer="m2_m3" x="54" y="87"/>
+		<point layer="pins_m2" x="54" y="89"/>
+		<point layer="m2_m3" x="54" y="87"/>
+		<segment layer="m2" x1="54" x2="49" y1="89" y2="89"/>
+		<point layer="m2_m3" x="49" y="89"/>
+		<segment layer="m3" x1="39" x2="39" y1="72" y2="68"/>
+		<point layer="m2_m3" x="39" y="72"/>
+		<point layer="m2_m3" x="39" y="68"/>
+		<point layer="pins_m2" x="39" y="68"/>
+		<segment layer="m3" x1="0" x2="0" y1="137" y2="141"/>
+		<point layer="m2_m3" x="0" y="137"/>
+		<point layer="m2_m3" x="0" y="141"/>
+		<point layer="pins_m2" x="0" y="141"/>
+		<segment layer="m3" x1="44" x2="44" y1="113" y2="111"/>
+		<point layer="m2_m3" x="44" y="111"/>
+		<point layer="pins_m2" x="44" y="113"/>
+		<point layer="m2_m3" x="44" y="111"/>
+		<segment layer="m2" x1="44" x2="41" y1="113" y2="113"/>
+		<point layer="m2_m3" x="41" y="113"/>
+		<segment layer="m3" x1="53" x2="53" y1="113" y2="111"/>
+		<point layer="m2_m3" x="53" y="113"/>
+		<point layer="m2_m3" x="53" y="111"/>
+		<point layer="pins_m2" x="53" y="111"/>
+		<segment layer="m2" x1="44" x2="46" y1="101" y2="101"/>
+		<point layer="m2_m3" x="44" y="101"/>
+		<point layer="pins_m2" x="46" y="101"/>
+		<segment layer="m2" x1="111" x2="108" y1="31" y2="31"/>
+		<point layer="m2_m3" x="111" y="31"/>
+		<point layer="pins_m2" x="108" y="31"/>
+		<segment layer="m2" x1="145" x2="141" y1="99" y2="99"/>
+		<point layer="m2_m3" x="145" y="99"/>
+		<point layer="pins_m2" x="141" y="99"/>
+		<segment layer="m3" x1="29" x2="29" y1="45" y2="36"/>
+		<point layer="m2_m3" x="29" y="36"/>
+		<point layer="pins_m2" x="29" y="45"/>
+		<point layer="m2_m3" x="29" y="36"/>
+		<segment layer="m2" x1="29" x2="23" y1="45" y2="45"/>
+		<point layer="m2_m3" x="23" y="45"/>
+		<segment layer="m3" x1="39" x2="39" y1="62" y2="56"/>
+		<point layer="m2_m3" x="39" y="56"/>
+		<point layer="pins_m2" x="39" y="62"/>
+		<point layer="m2_m3" x="39" y="56"/>
+		<segment layer="m3" x1="39" x2="39" y1="62" y2="68"/>
+		<segment layer="m2" x1="22" x2="21" y1="11" y2="11"/>
+		<point layer="m2_m3" x="22" y="11"/>
+		<point layer="pins_m2" x="21" y="11"/>
+		<segment layer="m2" x1="141" x2="140" y1="111" y2="111"/>
+		<point layer="m2_m3" x="141" y="111"/>
+		<point layer="pins_m2" x="140" y="111"/>
+		<segment layer="m3" x1="117" x2="117" y1="147" y2="148"/>
+		<point layer="m2_m3" x="117" y="148"/>
+		<point layer="pins_m2" x="117" y="147"/>
+		<point layer="m2_m3" x="117" y="148"/>
+		<segment layer="m3" x1="117" x2="117" y1="147" y2="145"/>
+		<point layer="m2_m3" x="117" y="145"/>
+		<point layer="pins_m2" x="117" y="145"/>
+		<segment layer="m2" x1="22" x2="32" y1="76" y2="76"/>
+		<point layer="pins_m2" x="22" y="76"/>
+		<point layer="pins_m2" x="32" y="76"/>
+		<segment layer="m3" x1="22" x2="22" y1="76" y2="77"/>
+		<point layer="m2_m3" x="22" y="77"/>
+		<segment layer="m2" x1="22" x2="17" y1="76" y2="76"/>
+		<point layer="m2_m3" x="17" y="76"/>
+		<segment layer="m3" x1="22" x2="22" y1="76" y2="74"/>
+		<point layer="m2_m3" x="22" y="74"/>
+		<point layer="pins_m2" x="22" y="74"/>
+		<segment layer="m3" x1="55" x2="55" y1="28" y2="33"/>
+		<point layer="m2_m3" x="55" y="33"/>
+		<point layer="pins_m2" x="55" y="28"/>
+		<point layer="m2_m3" x="55" y="33"/>
+		<segment layer="m2" x1="32" x2="39" y1="76" y2="76"/>
+		<point layer="m2_m3" x="39" y="76"/>
+		<segment layer="m3" x1="23" x2="23" y1="100" y2="107"/>
+		<point layer="m2_m3" x="23" y="107"/>
+		<point layer="pins_m2" x="23" y="100"/>
+		<point layer="m2_m3" x="23" y="107"/>
+		<segment layer="m2" x1="23" x2="20" y1="100" y2="100"/>
+		<point layer="m2_m3" x="20" y="100"/>
+		<segment layer="m3" x1="56" x2="56" y1="134" y2="136"/>
+		<point layer="m2_m3" x="56" y="136"/>
+		<point layer="pins_m2" x="56" y="134"/>
+		<point layer="m2_m3" x="56" y="136"/>
+		<segment layer="m2" x1="56" x2="50" y1="134" y2="134"/>
+		<point layer="m2_m3" x="50" y="134"/>
+		<segment layer="m3" x1="20" x2="20" y1="107" y2="108"/>
+		<point layer="m2_m3" x="20" y="108"/>
+		<point layer="pins_m2" x="20" y="107"/>
+		<point layer="m2_m3" x="20" y="108"/>
+		<segment layer="m2" x1="20" x2="11" y1="107" y2="107"/>
+		<point layer="m2_m3" x="11" y="107"/>
+		<segment layer="m2" x1="20" x2="22" y1="107" y2="107"/>
+		<point layer="m2_m3" x="22" y="107"/>
+		<segment layer="m2" x1="45" x2="44" y1="8" y2="8"/>
+		<point layer="pins_m2" x="45" y="8"/>
+		<point layer="m2_m3" x="44" y="8"/>
+		<segment layer="m3" x1="45" x2="45" y1="8" y2="10"/>
+		<point layer="m2_m3" x="45" y="10"/>
+		<segment layer="m3" x1="38" x2="38" y1="131" y2="136"/>
+		<point layer="m2_m3" x="38" y="136"/>
+		<point layer="pins_m2" x="38" y="131"/>
+		<point layer="m2_m3" x="38" y="136"/>
+		<segment layer="m3" x1="38" x2="38" y1="131" y2="126"/>
+		<point layer="m2_m3" x="38" y="126"/>
+		<segment layer="m2" x1="83" x2="87" y1="141" y2="141"/>
+		<point layer="pins_m2" x="83" y="141"/>
+		<point layer="m2_m3" x="87" y="141"/>
+		<segment layer="m2" x1="113" x2="111" y1="84" y2="84"/>
+		<point layer="m2_m3" x="113" y="84"/>
+		<point layer="pins_m2" x="111" y="84"/>
+		<segment layer="m2" x1="113" x2="115" y1="98" y2="98"/>
+		<point layer="m2_m3" x="113" y="98"/>
+		<point layer="pins_m2" x="115" y="98"/>
+		<segment layer="m3" x1="10" x2="10" y1="77" y2="81"/>
+		<point layer="m2_m3" x="10" y="77"/>
+		<point layer="m2_m3" x="10" y="81"/>
+		<point layer="pins_m2" x="10" y="81"/>
+		<segment layer="m3" x1="37" x2="37" y1="111" y2="108"/>
+		<point layer="m2_m3" x="37" y="111"/>
+		<point layer="m2_m3" x="37" y="108"/>
+		<point layer="pins_m2" x="37" y="108"/>
+		<segment layer="m2" x1="134" x2="135" y1="139" y2="139"/>
+		<point layer="m2_m3" x="134" y="139"/>
+		<point layer="pins_m2" x="135" y="139"/>
+		<segment layer="m2" x1="131" x2="132" y1="56" y2="56"/>
+		<point layer="m2_m3" x="132" y="56"/>
+		<segment layer="m2" x1="88" x2="87" y1="118" y2="118"/>
+		<point layer="m2_m3" x="88" y="118"/>
+		<point layer="pins_m2" x="87" y="118"/>
+		<segment layer="m3" x1="118" x2="118" y1="22" y2="19"/>
+		<point layer="m2_m3" x="118" y="19"/>
+		<point layer="pins_m2" x="118" y="19"/>
+		<segment layer="m3" x1="117" x2="117" y1="145" y2="128"/>
+		<point layer="m2_m3" x="117" y="128"/>
+		<segment layer="m2" x1="117" x2="113" y1="145" y2="145"/>
+		<point layer="m2_m3" x="113" y="145"/>
+		<segment layer="m3" x1="140" x2="140" y1="111" y2="118"/>
+		<point layer="m2_m3" x="140" y="118"/>
+		<segment layer="m2" x1="140" x2="136" y1="111" y2="111"/>
+		<point layer="m2_m3" x="136" y="111"/>
+		<segment layer="m2" x1="118" x2="115" y1="108" y2="108"/>
+		<point layer="pins_m2" x="118" y="108"/>
+		<point layer="m2_m3" x="115" y="108"/>
+		<segment layer="m3" x1="132" x2="132" y1="67" y2="64"/>
+		<point layer="m2_m3" x="132" y="64"/>
+		<point layer="pins_m2" x="132" y="67"/>
+		<point layer="m2_m3" x="132" y="64"/>
+		<segment layer="m3" x1="106" x2="106" y1="57" y2="47"/>
+		<point layer="m2_m3" x="106" y="47"/>
+		<point layer="pins_m2" x="106" y="57"/>
+		<point layer="m2_m3" x="106" y="47"/>
+		<segment layer="m2" x1="87" x2="88" y1="105" y2="105"/>
+		<point layer="pins_m2" x="87" y="105"/>
+		<point layer="pins_m2" x="88" y="105"/>
+		<segment layer="m3" x1="122" x2="122" y1="47" y2="56"/>
+		<point layer="m2_m3" x="122" y="56"/>
+		<point layer="pins_m2" x="122" y="47"/>
+		<point layer="m2_m3" x="122" y="56"/>
+		<segment layer="m3" x1="122" x2="122" y1="47" y2="36"/>
+		<segment layer="m2" x1="122" x2="126" y1="47" y2="47"/>
+		<point layer="m2_m3" x="126" y="47"/>
+		<segment layer="m3" x1="121" x2="121" y1="30" y2="31"/>
+		<point layer="m2_m3" x="121" y="31"/>
+		<point layer="pins_m2" x="121" y="30"/>
+		<point layer="m2_m3" x="121" y="31"/>
+		<segment layer="m3" x1="121" x2="121" y1="30" y2="22"/>
+		<segment layer="m2" x1="121" x2="118" y1="30" y2="30"/>
+		<point layer="m2_m3" x="118" y="30"/>
+		<segment layer="m2" x1="121" x2="126" y1="30" y2="30"/>
+		<point layer="m2_m3" x="126" y="30"/>
+		<segment layer="m3" x1="101" x2="101" y1="95" y2="90"/>
+		<point layer="m2_m3" x="101" y="90"/>
+		<point layer="pins_m2" x="101" y="95"/>
+		<point layer="m2_m3" x="101" y="90"/>
+		<segment layer="m3" x1="118" x2="118" y1="71" y2="84"/>
+		<point layer="m2_m3" x="118" y="84"/>
+		<point layer="pins_m2" x="118" y="71"/>
+		<point layer="m2_m3" x="118" y="84"/>
+		<segment layer="m2" x1="118" x2="111" y1="71" y2="71"/>
+		<point layer="m2_m3" x="111" y="71"/>
+		<segment layer="m3" x1="118" x2="118" y1="71" y2="64"/>
+		<point layer="m2_m3" x="118" y="64"/>
+		<segment layer="m2" x1="133" x2="138" y1="13" y2="13"/>
+		<point layer="pins_m2" x="133" y="13"/>
+		<point layer="m2_m3" x="138" y="13"/>
+		<segment layer="m3" x1="133" x2="133" y1="13" y2="19"/>
+		<point layer="m2_m3" x="133" y="19"/>
+		<segment layer="m3" x1="10" x2="10" y1="7" y2="11"/>
+		<point layer="m2_m3" x="10" y="11"/>
+		<point layer="pins_m2" x="10" y="7"/>
+		<point layer="m2_m3" x="10" y="11"/>
+		<segment layer="m3" x1="10" x2="10" y1="7" y2="3"/>
+		<point layer="m2_m3" x="10" y="3"/>
+		<segment layer="m2" x1="10" x2="4" y1="7" y2="7"/>
+		<segment layer="m3" x1="142" x2="142" y1="129" y2="131"/>
+		<point layer="m2_m3" x="142" y="131"/>
+		<point layer="pins_m2" x="142" y="129"/>
+		<point layer="m2_m3" x="142" y="131"/>
+		<segment layer="m3" x1="129" x2="129" y1="95" y2="93"/>
+		<point layer="m2_m3" x="129" y="93"/>
+		<point layer="pins_m2" x="129" y="95"/>
+		<segment layer="m2" x1="129" x2="130" y1="95" y2="95"/>
+		<point layer="m2_m3" x="130" y="95"/>
+		<segment layer="m3" x1="81" x2="81" y1="10" y2="2"/>
+		<point layer="m2_m3" x="81" y="2"/>
+		<point layer="pins_m2" x="81" y="10"/>
+		<point layer="m2_m3" x="81" y="2"/>
+		<segment layer="m2" x1="81" x2="100" y1="10" y2="10"/>
+		<segment layer="m3" x1="14" x2="14" y1="48" y2="51"/>
+		<point layer="m2_m3" x="14" y="51"/>
+		<point layer="pins_m2" x="14" y="48"/>
+		<point layer="m2_m3" x="14" y="51"/>
+		<segment layer="m3" x1="14" x2="14" y1="48" y2="45"/>
+		<point layer="m2_m3" x="14" y="45"/>
+		<segment layer="m2" x1="14" x2="23" y1="45" y2="45"/>
+		<segment layer="m2" x1="138" x2="145" y1="20" y2="20"/>
+		<segment layer="m2" x1="45" x2="49" y1="72" y2="72"/>
+		<point layer="pins_m2" x="45" y="72"/>
+		<point layer="m2_m3" x="49" y="72"/>
+		<segment layer="m3" x1="45" x2="45" y1="72" y2="68"/>
+		<point layer="m2_m3" x="45" y="68"/>
+		<segment layer="m2" x1="45" x2="39" y1="72" y2="72"/>
+		<segment layer="m3" x1="22" x2="22" y1="137" y2="141"/>
+		<point layer="m2_m3" x="22" y="141"/>
+		<point layer="pins_m2" x="22" y="137"/>
+		<point layer="m2_m3" x="22" y="141"/>
+		<segment layer="m2" x1="22" x2="0" y1="137" y2="137"/>
+		<segment layer="m3" x1="22" x2="22" y1="137" y2="131"/>
+		<point layer="m2_m3" x="22" y="131"/>
+		<segment layer="m2" x1="44" x2="46" y1="113" y2="113"/>
+		<point layer="m2_m3" x="46" y="113"/>
+		<segment layer="m3" x1="103" x2="103" y1="0" y2="2"/>
+		<point layer="m2_m3" x="103" y="2"/>
+		<point layer="pins_m2" x="103" y="0"/>
+		<point layer="m2_m3" x="103" y="2"/>
+		<segment layer="m3" x1="111" x2="111" y1="41" y2="31"/>
+		<point layer="m2_m3" x="111" y="31"/>
+		<point layer="pins_m2" x="111" y="41"/>
+		<segment layer="m2" x1="111" x2="108" y1="41" y2="41"/>
+		<point layer="m2_m3" x="108" y="41"/>
+		<segment layer="m2" x1="145" x2="141" y1="92" y2="92"/>
+		<point layer="pins_m2" x="145" y="92"/>
+		<point layer="m2_m3" x="141" y="92"/>
+		<segment layer="m3" x1="145" x2="145" y1="92" y2="93"/>
+		<point layer="m2_m3" x="145" y="93"/>
+		<segment layer="m3" x1="29" x2="29" y1="45" y2="48"/>
+		<point layer="m2_m3" x="29" y="48"/>
+		<segment layer="m2" x1="22" x2="21" y1="28" y2="28"/>
+		<point layer="pins_m2" x="22" y="28"/>
+		<point layer="m2_m3" x="21" y="28"/>
+		<segment layer="m2" x1="22" x2="23" y1="28" y2="28"/>
+		<point layer="m2_m3" x="23" y="28"/>
+		<segment layer="m2" x1="21" x2="10" y1="11" y2="11"/>
+		<segment layer="m3" x1="21" x2="21" y1="11" y2="10"/>
+		<point layer="m2_m3" x="21" y="10"/>
+		<segment layer="m3" x1="141" x2="141" y1="99" y2="111"/>
+		<segment layer="m2" x1="141" x2="140" y1="99" y2="99"/>
+		<point layer="m2_m3" x="140" y="99"/>
+		<segment layer="m2" x1="145" x2="138" y1="0" y2="0"/>
+		<point layer="pins_m2" x="145" y="0"/>
+		<point layer="m2_m3" x="138" y="0"/>
+		<segment layer="m3" x1="138" x2="138" y1="0" y2="13"/>
+		<segment layer="m2" x1="145" x2="147" y1="0" y2="0"/>
+		<point layer="m2_m3" x="147" y="0"/>
+		<segment layer="m3" x1="5" x2="5" y1="117" y2="112"/>
+		<point layer="m2_m3" x="5" y="112"/>
+		<point layer="pins_m2" x="5" y="117"/>
+		<point layer="m2_m3" x="5" y="112"/>
+		<segment layer="m3" x1="108" x2="108" y1="31" y2="30"/>
+		<point layer="m2_m3" x="108" y="30"/>
+		<segment layer="m2" x1="56" x2="63" y1="134" y2="134"/>
+		<segment layer="m2" x1="45" x2="49" y1="8" y2="8"/>
+		<segment layer="m3" x1="45" x2="45" y1="8" y2="7"/>
+		<point layer="m2_m3" x="45" y="7"/>
+		<segment layer="m3" x1="29" x2="29" y1="51" y2="48"/>
+		<point layer="m2_m3" x="29" y="48"/>
+		<point layer="pins_m2" x="29" y="51"/>
+		<segment layer="m2" x1="29" x2="39" y1="51" y2="51"/>
+		<point layer="m2_m3" x="39" y="51"/>
+		<segment layer="m3" x1="83" x2="83" y1="141" y2="140"/>
+		<segment layer="m2" x1="124" x2="125" y1="93" y2="93"/>
+		<point layer="pins_m2" x="124" y="93"/>
+		<point layer="m2_m3" x="125" y="93"/>
+		<segment layer="m3" x1="130" x2="130" y1="93" y2="92"/>
+		<point layer="m2_m3" x="130" y="92"/>
+		<segment layer="m3" x1="48" x2="48" y1="56" y2="62"/>
+		<point layer="m2_m3" x="48" y="62"/>
+		<point layer="pins_m2" x="48" y="56"/>
+		<point layer="m2_m3" x="48" y="62"/>
+		<segment layer="m2" x1="125" x2="124" y1="100" y2="100"/>
+		<point layer="pins_m2" x="125" y="100"/>
+		<point layer="m2_m3" x="124" y="100"/>
+		<segment layer="m3" x1="125" x2="125" y1="100" y2="98"/>
+		<point layer="m2_m3" x="125" y="98"/>
+		<segment layer="m2" x1="87" x2="83" y1="131" y2="131"/>
+		<point layer="pins_m2" x="87" y="131"/>
+		<point layer="m2_m3" x="83" y="131"/>
+		<segment layer="m2" x1="87" x2="88" y1="131" y2="131"/>
+		<point layer="m2_m3" x="88" y="131"/>
+		<segment layer="m2" x1="3" x2="4" y1="19" y2="19"/>
+		<point layer="pins_m2" x="3" y="19"/>
+		<point layer="m2_m3" x="4" y="19"/>
+		<segment layer="m3" x1="49" x2="49" y1="87" y2="89"/>
+		<point layer="m2_m3" x="49" y="89"/>
+		<point layer="pins_m2" x="49" y="87"/>
+		<segment layer="m2" x1="49" x2="46" y1="87" y2="87"/>
+		<point layer="m2_m3" x="46" y="87"/>
+		<segment layer="m3" x1="113" x2="113" y1="90" y2="95"/>
+		<point layer="m2_m3" x="113" y="95"/>
+		<point layer="pins_m2" x="113" y="90"/>
+		<point layer="m2_m3" x="113" y="95"/>
+		<segment layer="m3" x1="113" x2="113" y1="90" y2="84"/>
+		<segment layer="m2" x1="113" x2="111" y1="90" y2="90"/>
+		<point layer="m2_m3" x="111" y="90"/>
+		<segment layer="m2" x1="113" x2="115" y1="90" y2="90"/>
+		<point layer="m2_m3" x="115" y="90"/>
+		<segment layer="m2" x1="23" x2="29" y1="36" y2="36"/>
+		<point layer="pins_m2" x="23" y="36"/>
+		<segment layer="m2" x1="23" x2="22" y1="36" y2="36"/>
+		<point layer="m2_m3" x="22" y="36"/>
+		<segment layer="m3" x1="23" x2="23" y1="36" y2="28"/>
+		<segment layer="m3" x1="17" x2="17" y1="77" y2="76"/>
+		<point layer="m2_m3" x="17" y="76"/>
+		<point layer="pins_m2" x="17" y="77"/>
+		<segment layer="m3" x1="17" x2="17" y1="77" y2="81"/>
+		<point layer="m2_m3" x="17" y="81"/>
+		<segment layer="m2" x1="17" x2="10" y1="77" y2="77"/>
+		<segment layer="m3" x1="41" x2="41" y1="111" y2="113"/>
+		<point layer="m2_m3" x="41" y="113"/>
+		<point layer="pins_m2" x="41" y="111"/>
+		<segment layer="m3" x1="41" x2="41" y1="111" y2="108"/>
+		<point layer="m2_m3" x="41" y="108"/>
+		<segment layer="m2" x1="41" x2="37" y1="111" y2="111"/>
+		<segment layer="m2" x1="39" x2="32" y1="68" y2="68"/>
+		<point layer="m2_m3" x="32" y="68"/>
+		<segment layer="m3" x1="76" x2="76" y1="104" y2="105"/>
+		<point layer="m2_m3" x="76" y="105"/>
+		<point layer="pins_m2" x="76" y="104"/>
+		<point layer="m2_m3" x="76" y="105"/>
+		<segment layer="m3" x1="138" x2="138" y1="148" y2="147"/>
+		<point layer="m2_m3" x="138" y="147"/>
+		<point layer="pins_m2" x="138" y="148"/>
+		<point layer="m2_m3" x="138" y="147"/>
+		<segment layer="m2" x1="138" x2="135" y1="148" y2="148"/>
+		<point layer="m2_m3" x="135" y="148"/>
+		<segment layer="m3" x1="134" x2="134" y1="131" y2="139"/>
+		<segment layer="m2" x1="134" x2="135" y1="131" y2="131"/>
+		<point layer="m2_m3" x="135" y="131"/>
+		<segment layer="m2" x1="133" x2="141" y1="56" y2="56"/>
+		<point layer="pins_m2" x="133" y="56"/>
+		<segment layer="m3" x1="133" x2="133" y1="56" y2="61"/>
+		<point layer="m2_m3" x="133" y="61"/>
+		<segment layer="m2" x1="133" x2="132" y1="56" y2="56"/>
+		<segment layer="m2" x1="88" x2="97" y1="128" y2="128"/>
+		<point layer="pins_m2" x="88" y="128"/>
+		<point layer="pins_m2" x="97" y="128"/>
+		<segment layer="m2" x1="88" x2="87" y1="128" y2="128"/>
+		<point layer="m2_m3" x="87" y="128"/>
+		<segment layer="m3" x1="88" x2="88" y1="128" y2="131"/>
+		<segment layer="m3" x1="88" x2="88" y1="128" y2="118"/>
+		<segment layer="m2" x1="46" x2="49" y1="101" y2="101"/>
+		<point layer="m2_m3" x="49" y="101"/>
+		<segment layer="m2" x1="97" x2="113" y1="128" y2="128"/>
+		<point layer="pins_m2" x="113" y="128"/>
+		<segment layer="m3" x1="50" x2="50" y1="142" y2="136"/>
+		<point layer="m2_m3" x="50" y="136"/>
+		<point layer="pins_m2" x="50" y="142"/>
+		<point layer="m2_m3" x="50" y="136"/>
+		<point layer="pins_m2" x="50" y="136"/>
+		<segment layer="m3" x1="37" x2="37" y1="108" y2="107"/>
+		<point layer="m2_m3" x="37" y="107"/>
+		<segment layer="m2" x1="113" x2="117" y1="128" y2="128"/>
+		<segment layer="m3" x1="48" x2="48" y1="33" y2="31"/>
+		<point layer="m2_m3" x="48" y="31"/>
+		<point layer="pins_m2" x="48" y="33"/>
+		<point layer="m2_m3" x="48" y="31"/>
+		<segment layer="m2" x1="48" x2="55" y1="33" y2="33"/>
+		<segment layer="m2" x1="100" x2="103" y1="2" y2="2"/>
+		<segment layer="m3" x1="100" x2="100" y1="2" y2="0"/>
+		<point layer="m2_m3" x="100" y="0"/>
+		<segment layer="m3" x1="106" x2="106" y1="60" y2="57"/>
+		<point layer="m2_m3" x="106" y="57"/>
+		<point layer="pins_m2" x="106" y="60"/>
+		<segment layer="m3" x1="118" x2="118" y1="19" y2="13"/>
+		<point layer="m2_m3" x="118" y="13"/>
+		<segment layer="m2" x1="118" x2="103" y1="19" y2="19"/>
+		<point layer="m2_m3" x="103" y="19"/>
+		<segment layer="m2" x1="11" x2="5" y1="112" y2="112"/>
+		<point layer="pins_m2" x="11" y="112"/>
+		<segment layer="m3" x1="11" x2="11" y1="112" y2="117"/>
+		<point layer="m2_m3" x="11" y="117"/>
+		<segment layer="m3" x1="11" x2="11" y1="112" y2="107"/>
+		<segment layer="m2" x1="136" x2="134" y1="118" y2="118"/>
+		<point layer="pins_m2" x="136" y="118"/>
+		<point layer="m2_m3" x="134" y="118"/>
+		<segment layer="m2" x1="136" x2="140" y1="118" y2="118"/>
+		<segment layer="m3" x1="39" x2="39" y1="30" y2="31"/>
+		<point layer="m2_m3" x="39" y="31"/>
+		<point layer="pins_m2" x="39" y="30"/>
+		<segment layer="m2" x1="4" x2="3" y1="3" y2="3"/>
+		<point layer="m2_m3" x="3" y="3"/>
+		<segment layer="m2" x1="132" x2="131" y1="67" y2="67"/>
+		<point layer="m2_m3" x="131" y="67"/>
+		<segment layer="m3" x1="5" x2="5" y1="102" y2="112"/>
+		<point layer="m2_m3" x="5" y="112"/>
+		<point layer="pins_m2" x="5" y="102"/>
+		<segment layer="m2" x1="67" x2="69" y1="146" y2="146"/>
+		<point layer="pins_m2" x="67" y="146"/>
+		<point layer="m2_m3" x="69" y="146"/>
+		<segment layer="m2" x1="106" x2="111" y1="57" y2="57"/>
+		<point layer="m2_m3" x="111" y="57"/>
+		<segment layer="m2" x1="87" x2="76" y1="105" y2="105"/>
+		<segment layer="m3" x1="87" x2="87" y1="105" y2="104"/>
+		<point layer="m2_m3" x="87" y="104"/>
+		<segment layer="m3" x1="88" x2="88" y1="105" y2="118"/>
+		<segment layer="m3" x1="115" x2="115" y1="98" y2="100"/>
+		<point layer="m2_m3" x="115" y="100"/>
+		<segment layer="m2" x1="115" x2="118" y1="98" y2="98"/>
+		<point layer="m2_m3" x="118" y="98"/>
+		<segment layer="m2" x1="87" x2="106" y1="47" y2="47"/>
+		<point layer="pins_m2" x="87" y="47"/>
+		<segment layer="m3" x1="87" x2="87" y1="47" y2="57"/>
+		<point layer="m2_m3" x="87" y="57"/>
+		<segment layer="m3" x1="50" x2="50" y1="136" y2="134"/>
+		<segment layer="m2" x1="50" x2="38" y1="136" y2="136"/>
+		<segment layer="m2" x1="44" x2="41" y1="20" y2="20"/>
+		<point layer="pins_m2" x="44" y="20"/>
+		<point layer="m2_m3" x="41" y="20"/>
+		<segment layer="m2" x1="44" x2="45" y1="20" y2="20"/>
+		<point layer="m2_m3" x="45" y="20"/>
+		<segment layer="m2" x1="22" x2="20" y1="126" y2="126"/>
+		<point layer="pins_m2" x="22" y="126"/>
+		<point layer="m2_m3" x="20" y="126"/>
+		<segment layer="m3" x1="22" x2="22" y1="126" y2="131"/>
+		<segment layer="m2" x1="135" x2="138" y1="139" y2="139"/>
+		<point layer="m2_m3" x="138" y="139"/>
+		<segment layer="m3" x1="32" x2="32" y1="10" y2="11"/>
+		<point layer="m2_m3" x="32" y="11"/>
+		<point layer="pins_m2" x="32" y="10"/>
+		<point layer="m2_m3" x="32" y="11"/>
+		<segment layer="m3" x1="32" x2="32" y1="10" y2="8"/>
+		<point layer="m2_m3" x="32" y="8"/>
+		<segment layer="m2" x1="127" x2="118" y1="64" y2="64"/>
+		<point layer="pins_m2" x="127" y="64"/>
+		<segment layer="m3" x1="127" x2="127" y1="64" y2="67"/>
+		<point layer="m2_m3" x="127" y="67"/>
+		<segment layer="m2" x1="131" x2="126" y1="47" y2="47"/>
+		<segment layer="m2" x1="122" x2="121" y1="36" y2="36"/>
+		<point layer="m2_m3" x="121" y="36"/>
+		<segment layer="m3" x1="121" x2="121" y1="31" y2="36"/>
+		<segment layer="m3" x1="121" x2="121" y1="22" y2="20"/>
+		<point layer="m2_m3" x="121" y="20"/>
+		<segment layer="m2" x1="121" x2="133" y1="22" y2="22"/>
+		<point layer="m2_m3" x="133" y="22"/>
+		<segment layer="m3" x1="133" x2="133" y1="22" y2="20"/>
+		<segment layer="m3" x1="118" x2="118" y1="30" y2="31"/>
+		<point layer="m2_m3" x="118" y="31"/>
+		<segment layer="m2" x1="118" x2="111" y1="30" y2="30"/>
+		<point layer="m2_m3" x="111" y="30"/>
+		<segment layer="m3" x1="111" x2="111" y1="30" y2="31"/>
+		<segment layer="m2" x1="101" x2="111" y1="90" y2="90"/>
+		<segment layer="m3" x1="113" x2="113" y1="95" y2="98"/>
+		<segment layer="m2" x1="118" x2="113" y1="84" y2="84"/>
+		<segment layer="m3" x1="133" x2="133" y1="20" y2="19"/>
+		<segment layer="m3" x1="118" x2="118" y1="13" y2="0"/>
+		<point layer="m2_m3" x="118" y="0"/>
+		<segment layer="m3" x1="4" x2="4" y1="7" y2="19"/>
+		<segment layer="m2" x1="142" x2="136" y1="131" y2="131"/>
+		<point layer="m2_m3" x="136" y="131"/>
+		<segment layer="m3" x1="134" x2="134" y1="129" y2="118"/>
+		<segment layer="m3" x1="134" x2="134" y1="129" y2="128"/>
+		<point layer="m2_m3" x="134" y="128"/>
+		<segment layer="m2" x1="134" x2="117" y1="129" y2="129"/>
+		<point layer="m2_m3" x="117" y="129"/>
+		<segment layer="m3" x1="117" x2="117" y1="129" y2="128"/>
+		<segment layer="m2" x1="129" x2="125" y1="93" y2="93"/>
+		<segment layer="m2" x1="100" x2="103" y1="10" y2="10"/>
+		<point layer="m2_m3" x="103" y="10"/>
+		<segment layer="m3" x1="103" x2="103" y1="10" y2="19"/>
+		<segment layer="m3" x1="133" x2="133" y1="61" y2="64"/>
+		<point layer="m2_m3" x="133" y="64"/>
+		<segment layer="m2" x1="133" x2="132" y1="64" y2="64"/>
+		<segment layer="m2" x1="133" x2="132" y1="61" y2="61"/>
+		<point layer="m2_m3" x="132" y="61"/>
+		<segment layer="m2" x1="39" x2="45" y1="87" y2="87"/>
+		<point layer="m2_m3" x="45" y="87"/>
+		<segment layer="m3" x1="39" x2="39" y1="87" y2="76"/>
+		<segment layer="m3" x1="49" x2="49" y1="89" y2="101"/>
+		<segment layer="m2" x1="69" x2="63" y1="134" y2="134"/>
+		<segment layer="m3" x1="69" x2="69" y1="141" y2="146"/>
+		<segment layer="m3" x1="83" x2="83" y1="140" y2="131"/>
+		<segment layer="m3" x1="56" x2="56" y1="123" y2="113"/>
+		<point layer="m2_m3" x="56" y="113"/>
+		<segment layer="m2" x1="56" x2="53" y1="113" y2="113"/>
+		<segment layer="m2" x1="56" x2="53" y1="123" y2="123"/>
+		<point layer="m2_m3" x="53" y="123"/>
+		<segment layer="m3" x1="41" x2="41" y1="33" y2="36"/>
+		<point layer="m2_m3" x="41" y="36"/>
+		<segment layer="m2" x1="41" x2="29" y1="36" y2="36"/>
+		<segment layer="m2" x1="48" x2="44" y1="31" y2="31"/>
+		<segment layer="m3" x1="48" x2="48" y1="31" y2="28"/>
+		<point layer="m2_m3" x="48" y="28"/>
+		<segment layer="m3" x1="41" x2="41" y1="30" y2="20"/>
+		<segment layer="m2" x1="45" x2="46" y1="87" y2="87"/>
+		<segment layer="m3" x1="45" x2="45" y1="68" y2="62"/>
+		<point layer="m2_m3" x="45" y="62"/>
+		<segment layer="m2" x1="45" x2="48" y1="62" y2="62"/>
+		<segment layer="m2" x1="45" x2="48" y1="68" y2="68"/>
+		<point layer="m2_m3" x="48" y="68"/>
+		<segment layer="m3" x1="39" x2="39" y1="72" y2="76"/>
+		<segment layer="m3" x1="44" x2="44" y1="111" y2="101"/>
+		<segment layer="m2" x1="53" x2="46" y1="113" y2="113"/>
+		<segment layer="m2" x1="108" x2="106" y1="41" y2="41"/>
+		<point layer="m2_m3" x="106" y="41"/>
+		<segment layer="m3" x1="106" x2="106" y1="41" y2="47"/>
+		<segment layer="m3" x1="145" x2="145" y1="99" y2="93"/>
+		<segment layer="m2" x1="141" x2="130" y1="92" y2="92"/>
+		<segment layer="m3" x1="39" x2="39" y1="51" y2="56"/>
+		<segment layer="m2" x1="22" x2="32" y1="11" y2="11"/>
+		<segment layer="m3" x1="138" x2="138" y1="147" y2="139"/>
+		<segment layer="m2" x1="23" x2="37" y1="107" y2="107"/>
+		<segment layer="m2" x1="23" x2="22" y1="107" y2="107"/>
+		<segment layer="m3" x1="50" x2="50" y1="134" y2="131"/>
+		<point layer="m2_m3" x="50" y="131"/>
+		<segment layer="m3" x1="20" x2="20" y1="108" y2="112"/>
+		<point layer="m2_m3" x="20" y="112"/>
+		<segment layer="m3" x1="20" x2="20" y1="112" y2="126"/>
+		<segment layer="m3" x1="45" x2="45" y1="20" y2="10"/>
+		<segment layer="m2" x1="44" x2="32" y1="8" y2="8"/>
+		<segment layer="m3" x1="125" x2="125" y1="93" y2="98"/>
+		<segment layer="m2" x1="125" x2="118" y1="98" y2="98"/>
+		<segment layer="m3" x1="115" x2="115" y1="100" y2="108"/>
+		<segment layer="m2" x1="136" x2="135" y1="131" y2="131"/>
+		<segment layer="m2" x1="131" x2="127" y1="67" y2="67"/>
+	</net>
+	
+
+</root>
