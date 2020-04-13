@@ -58,12 +58,13 @@ class hann_grid(graph):
 			except:
 				pass
 		self.remvertex(self.vertmap[p])
-		del self.vertmap[p]
+		if p in self.pins: self.pins.remove[p]
+		self.vertmap.pop(p, None)
 	
 	def deledge(self, p1, p2):
 		ed = self.findedge(p1, p2)
 		self.remedge(ed)
-		del self.edgemap[(p1, p2)] 
+		self.edgemap.pop((p1, p2), None) 
 		
 	def build_hann_grid(self):
 		curredges = self.edgemap.copy().keys()
@@ -93,15 +94,44 @@ class hann_grid(graph):
 	def cleanup(self):
 		#print(self.pins)
 		cp = self.vertmap.copy()
+		self.vertmap = {}
 		for p in cp.keys():
-			#print("degree", cp[p].deg())
+			#print("degree", cp[p], cp[p].deg(), cp[p].ins + cp[p].outs)
+			#print(self.edgemap)
 			if (not (p in self.pins)) and (cp[p].deg() < 2):
 				try:
 					self.delvertex(p)
 					#print("vertex del", p)
 				except:
 					print("delete failure", p)
+			else:
+				self.vertmap[p] = cp[p]
+				
+			self.vertmap = {}
+			self.edgemap = {}
+			for ed in self.edges:
+				self.edgemap[(ed.vertexfrom.value, ed.vertexto.value)] = ed
+			for v in self.verts:
+				self.vertmap[v.value] = v
 	
+	
+				
+	def joinify(self):
+		ver = lambda ed: ed.vertexfrom.value[0] == ed.vertexto.value[0]
 		
-		
+		cp = self.vertmap.copy()
+		for v in self.verts:
+			#print("degree", v, v.deg(), v.ins + v.outs)
+			eds = v.ins + v.outs
+			try:
+				ed1 = eds[0]
+				ed2 = eds[1]
+			except:
+				continue
+			#print(ver(ed1))
+			#print(ver(ed2))
+			if v.deg() == 2 and ver(ed1) == ver(ed2) and (not v.value in self.pins):
+				#print("deleted")
+				self.addedge(ed1.anotherside(v).value, ed2.anotherside(v).value)
+				self.delvertex(v.value)
 		

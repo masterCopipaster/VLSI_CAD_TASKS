@@ -45,11 +45,17 @@ class edge :
 			self.vertexfrom.outs.remove(self)
 		except:
 			pass
+			
+	def anotherside(self, v):
+		if v == self.vertexfrom:
+			return self.vertexto
+		if v == self.vertexto:
+			return self.vertexfrom
 		
 	def __str__(self):
-		return "<edge " + str(id(self)) + " name: " + str(self.name) + " value: " + str(self.value) + ">"
+		return "<edge " + str(id(self)) + " name: " + str(self.name) + " value: " + str(self.value) + " from: " + str(self.vertexfrom) + " to: " + str(self.vertexto) + ">"
 	def __repr__(self):
-		return "<edge " + str(id(self)) + " name: " + str(self.name) + " value: " + str(self.value) + ">"
+		return "<edge " + str(id(self)) + " name: " + str(self.name) + " value: " + str(self.value) + " from: " + str(self.vertexfrom) + " to: " + str(self.vertexto) + ">"
 		
 import os
 	

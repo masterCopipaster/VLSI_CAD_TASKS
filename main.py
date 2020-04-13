@@ -19,12 +19,41 @@ def readxml(filename, gr):
 		if layer == "pins":
 			gr.addpin((x, y))
 
+def generate_layermap(gr):
+	lmap = {}
+	ver = lambda ed: ed.vertexfrom.value[0] == ed.vertexto.value[0]
+	for p in gr.vertmap.keys():
+		layers = {"pins" : False, "m2" : False, "m3" : False, "pins_m2" : False, "m2_m3" : False}
+		v = gr.vertmap[p]
+		if p in gr.pins:
+			layers["pins"] = True
+		eds = v.ins + v.outs
+		for ed in eds:
+			if ver(ed):
+				layers["m3"] = True
+			else:
+				layers["m2"] = True
+				
+		if layers["m2"] and layers["m3"]:
+			layers["m2_m3"] = True
+		if layers["pins"] and layers["m2"]:
+			layers["pins_m2"] = True
+		m2 = layers["m2"]
+		layers["m2"] = False
+		if layers["pins"] and layers["m3"]:
+			layers["pins_m2"] = True
+			layers["m2_m3"] = True
+			layers["m2"] = not m2
+		lmap[p] = layers
+	return lmap
+		
 		
 def writexml(filename, gr):
 	doc = minidom.parse(filename)
 	net = doc.getElementsByTagName("net")[0]
 	points = net.getElementsByTagName("point")
 	added = []
+	lmap = generate_layermap(gr)
 	ver = lambda p1, p2: p1[0] == p2[0]
 	hor = lambda p1, p2: p1[1] == p2[1]
 	for p1, p2 in gr.edgemap.keys():
@@ -36,45 +65,30 @@ def writexml(filename, gr):
 		net.appendChild(segment)
 		if hor(p1, p2): 
 			segment.setAttribute("layer", "m2")
-		if ver(p1, p2): 
+		elif ver(p1, p2): 
 			segment.setAttribute("layer", "m3")
-		if not p1 in added:
-			added.append(p1)
-			point = doc.createElement("point")
-			point.setAttribute("x", str(p1[0]))
-			point.setAttribute("y", str(p1[1]))
-			if p1 in gr.pins and hor(p1, p2):
-				point.setAttribute("layer", "pins_m2")
-			if p1 in gr.pins and ver(p1, p2):
-				point.setAttribute("layer", "pins_m2")
-				apoint = doc.createElement("point")
-				apoint.setAttribute("x", str(p2[0]))
-				apoint.setAttribute("y", str(p2[1]))
-				apoint.setAttribute("layer", "m2")
-				net.appendChild(apoint)
-				apoint.setAttribute("layer", "m2_m3")
-				net.appendChild(apoint)
-			if not p1 in gr.pins:
-				point.setAttribute("layer", "m2_m3")
+		else:
+			segment.setAttribute("layer", "m3")
+	for p in lmap.keys():
+		point = doc.createElement("point")
+		point.setAttribute("x", str(p[0]))
+		point.setAttribute("y", str(p[1]))
+		if lmap[p]["pins_m2"]:
+			point.setAttribute("layer", "pins_m2")
 			net.appendChild(point)
-		if not p2 in added:
-			added.append(p2)
-			point = doc.createElement("point")
-			point.setAttribute("x", str(p2[0]))
-			point.setAttribute("y", str(p2[1]))
-			if p2 in gr.pins and hor(p1, p2):
-				point.setAttribute("layer", "pins_m2")
-			if p2 in gr.pins and ver(p1, p2):
-				point.setAttribute("layer", "pins_m2")
-				apoint = doc.createElement("point")
-				apoint.setAttribute("x", str(p2[0]))
-				apoint.setAttribute("y", str(p2[1]))
-				apoint.setAttribute("layer", "m2")
-				net.appendChild(apoint)
-				apoint.setAttribute("layer", "m2_m3")
-				net.appendChild(apoint)
-			if not p2 in gr.pins:
-				point.setAttribute("layer", "m2_m3")
+			
+		point = doc.createElement("point")
+		point.setAttribute("x", str(p[0]))
+		point.setAttribute("y", str(p[1]))
+		if lmap[p]["m2_m3"]:
+			point.setAttribute("layer", "m2_m3")
+			net.appendChild(point)
+			
+		point = doc.createElement("point")
+		point.setAttribute("x", str(p[0]))
+		point.setAttribute("y", str(p[1]))
+		if lmap[p]["m2"]:
+			point.setAttribute("layer", "m2")
 			net.appendChild(point)
 			
 	l = filename.split(".")
@@ -118,6 +132,9 @@ print("deikstrifying")
 gr.deikstrify()
 
 print("cleaning up")
+gr.joinify()
+gr.cleanup()
+gr.joinify()
 gr.cleanup()
 
 if tdot: print(gr.dotexport())
