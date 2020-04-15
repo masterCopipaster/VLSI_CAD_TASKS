@@ -32,10 +32,8 @@
 		<segment layer="m3" x1="107" x2="107" y1="110" y2="92"/>
 		<point layer="pins_m2" x="143" y="110"/>
 		<point layer="m2_m3" x="143" y="110"/>
-		<point layer="m2" x="143" y="110"/>
 		<point layer="pins_m2" x="100" y="92"/>
 		<point layer="m2_m3" x="100" y="92"/>
-		<point layer="m2" x="100" y="92"/>
 		<point layer="pins_m2" x="143" y="64"/>
 		<point layer="m2_m3" x="143" y="64"/>
 		<point layer="m2" x="143" y="64"/>

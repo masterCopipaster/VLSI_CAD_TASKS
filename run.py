@@ -13,7 +13,7 @@ pc = pointcnt(filename)
 
 print("pins in file:", pc)
 
-if pointcnt(filename) > 50:  
+if pointcnt(filename) >= 50:  
 	print("running fast mode")	
 	os.system("python3 main.py " + filename + " -fm &")	
 
